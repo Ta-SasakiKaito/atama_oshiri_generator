@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直中央揃え */
+    align-items: center; /* 水平中央揃え */
+    height: auto; /* 画面全体の高さを使用 */
+    margin: 0;
+    font-family: "Shippori Mincho", serif;
+    margin-top: 300px;
+}
+
+
+button {
+    background-color: #0fafff; /* ボタンの背景色 */
+    border: none; /* ボーダーなし */
+    color: white; /* テキストの色 */
+    padding: 10px 20px; /* パディング */
+    font-size: 18px; /* フォントサイズ */
+    border-radius: 5px; /* 角を丸くする */
+    cursor: pointer; /* ポインターを表示 */
+    margin: 40px;
+}
+
+button:hover {
+    background-color: #4fc4ff; /* ホバー時の背景色 */
+}
+
+.letter {
+    font-size: 100px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color: #daf6ff; /* 好みの背景色を指定（例: 明るいグレー） */
+    text-align: center; /* 中央寄せ */
+    padding: 20px; /* ヘッダー内の余白 */
+    position: fixed; /* ページの上部に固定 */
+    top: 0; /* 上端からの位置 */
+    width: 100%; /* ページ全幅 */
+    box-shadow: 0px 4px 2px -2px rgba(255, 255, 255, 0); /* ヘッダーの下に影を追加（オプション） */
+    z-index: 1000; /* 他の要素より前面に表示 */
+}
